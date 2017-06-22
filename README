@@ -1,5 +1,7 @@
+Part 1
+
 Compile the Java program using `javac`, and then pass filename 
-of the XML/XHTML file as the first parameter to the program.
+of the XML/XHTML file as the first argument to the program.
 
 I have included two sample inputs, sample1.xml and sample2.htm, 
 and the corresponding outputs are in files output1.txt and 
@@ -9,3 +11,16 @@ Steps to run code :
 
 javac HypertreeGenerator.java
 java HypertreeGenerator ./file.xml
+
+Part 2
+
+You can specify operations, for example prime, head, tail, simpleTree
+as arguments after the filename. You may specify a number (defaults to 1)
+after head, tail, and simpleTree operations.
+
+Example : 
+
+java HypertreeGenerator ./sample.xml prime
+java HypertreeGenerator ./sample.xml head 2 
+java HypertreeGenerator ./sample.xml tail 1
+java HypertreeGenerator ./sample.xml simpleTree 3
