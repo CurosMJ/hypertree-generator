@@ -1,0 +1,11 @@
+Compile the Java program using `javac`, and then pass filename 
+of the XML/XHTML file as the first parameter to the program.
+
+I have included two sample inputs, sample1.xml and sample2.htm, 
+and the corresponding outputs are in files output1.txt and 
+output2.txt
+
+Steps to run code :
+
+javac HypertreeGenerator.java
+java HypertreeGenerator ./file.xml
